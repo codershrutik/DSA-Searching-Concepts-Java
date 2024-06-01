@@ -1,6 +1,9 @@
 public class searchInStrings{
     public static void main(String[] args){
-
+        String str = "Shruti";
+        char target = 'i';
+        boolean ans = search(str, target);
+        System.out.println(ans);
     }
 
     static boolean search(String str, char target){
