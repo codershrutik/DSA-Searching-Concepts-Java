@@ -24,17 +24,32 @@ public class Main{
     // }
 
     //searching the target and returning the element
-    static int linearSearch2(int[] arr, int target){
+    // static int linearSearch2(int[] arr, int target){
+    //     if(arr.length == 0){
+    //         return -1;
+    //     }
+
+    //     for(int element: arr){
+    //         if(element == target){
+    //             return element;
+    //         }
+    //     }
+
+    //     return -1;
+    // }
+
+    //searching the target and returning true or false
+    static boolean linearSearch3(int[] arr, int target){
         if(arr.length == 0){
-            return -1;
+            return false;
         }
 
         for(int element: arr){
             if(element == target){
-                return element;
+                return true;
             }
         }
 
-        return -1;
+        return false;
     }
 }
