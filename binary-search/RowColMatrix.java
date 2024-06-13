@@ -10,7 +10,7 @@ public class RowColMatrix{
             {33,34,38,50}
         };
 
-        int target = 37;
+        int target = 39;
 
         System.out.println(Arrays.toString(search(arr,target)));
     }
